@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // text animation
       // Define the text to be inserted
-  var newText = "Sinh Nhật Bác Hồ";
+  var newText = "Vị lãnh tụ thiên tài";
 
   // Initialize Typed.js
   var typed = new Typed('#text', {
