@@ -1,0 +1,13 @@
+.img-profile{
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.team-member img{
+    object-fit: cover;
+}
+.timeline-image img{
+    object-fit: cover;
+    max-height: 100%;
+    width: 100%;
+}
