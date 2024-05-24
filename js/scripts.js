@@ -67,8 +67,9 @@ window.addEventListener('DOMContentLoaded', event => {
 $(document).ready(function(){
     $('.portfolio-link').click(function(){
       var imgSrc = $(this).find('img').attr('src');
+      let modalText = $(this).parent('.portfolio-item').find('.js-content').html();
       $('#modalImage').attr('src', imgSrc);
+      $('#modalText').html(modalText);
       $('#portfolioModal').modal('show');
     });
-
-     });
+});
