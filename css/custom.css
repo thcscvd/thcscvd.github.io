@@ -14,3 +14,12 @@
 img, iframe{
     max-width: 100%;
 }
+#mainNav{
+    background-color: rgba(0,0,0,0.3);
+}
+.portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    background-color: #c72d12;
+}
+.text-primary{
+    color: #c72d12!important;
+}
